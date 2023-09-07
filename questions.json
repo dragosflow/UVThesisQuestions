@@ -1,0 +1,1819 @@
+[
+    {
+        "QuestionTitle": "Care dintre urmatoarele afirmatii este/sunt adevarata/adevarate pentru algoritmul corespunzator functiei de mai jos (se considera ca x este un tablou unidimensional cu n elemente)?",
+        "Answer1": "Algoritmul returneaza numarul de elemente pozitive din x",
+        "Answer2": "Algoritmul returneaza numarul de elemente din cea mai lunga subsecventa cu elemente pozitive din x",
+        "Answer3": "Algoritmul are ordinul de complexitate O(n^2)",
+        "Answer4": "Algoritmul are ordinul de complexitate O(n)",
+        "Answer5": "Algoritmul are ordinul de complexitate O(n*k)",
+        "Answer": "b,d",
+        "Image": "asd_1.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care dintre următoarele afirmaţii este/sunt adevărată/adevărate pentru algoritmul corespunzător funcţiei de mai jos (se consideră că a este un tablou unidimensional cu n elemente)?",
+        "Answer1": "Algoritmul sortează descrescător tabloul a",
+        "Answer2": "După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≥ a[n - 1] pentru 0 ≤ i < n",
+        "Answer3": "Algoritmul sortează crescător tabloul a",
+        "Answer4": "După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≤ a[n - 1] pentru 0 ≤ i < n",
+        "Answer": "b",
+        "Image": "asd_2.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se consideră două valori naturale a şi b şi algoritmul descris prin (// specifică operatia de determinare a câtului împărtirii întregi): Care dintre următoarele afirmaţii este/sunt adevărată/adevărate?",
+        "Answer1": "Este posibil ca succesiunea de apeluri recursive să nu se termine",
+        "Answer2": "Algoritmul returnează întotdeauna 0",
+        "Answer3": "Algoritmul returnează produsul a*b dacă a este par şi a*b+b dacă a este impar",
+        "Answer4": "Algoritmul returnează produsul a*b indiferent de paritatea lui a",
+        "Answer5": "Dacă a > 2b atunci numărul de operaţii de înmulţire efectuate este mai mic în cazul apelului alg(b,a) decât în cazul apelului alg(a,b)",
+        "Answer": "d, e",
+        "Image": "asd_3.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se consideră un tablou unidimensional, a[0..n-1], cu n = 10^10 valori numerice şi se pune problema determinării primelor 10 valori în ordine crescătoare. Care dintre următoarele abordări asigură faptul că a[0..9] conține cele mai mici 10 elemente în ordine crescătoare şi este mai eficientă?",
+        "Answer1": "Se sortează a[0..n-1] crescător folosind algoritmul quicksort",
+        "Answer2": "Se sortează parțial a aplicând algoritmul de sortare prin inserție în care ciclul exterior for i in range(1,n) se înlocuiește cu for i in range(1,11)",
+        "Answer3": "Se sortează parțial a aplicând algoritmul de sortare prin selecție în care ciclul exterior for i in range(0,n-1) se înlocuiește cu for i in range(0,10)",
+        "Answer": "c",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se consideră algoritmul alg apelat pentru un număr natural n şi se notează cu T(n) numărul de operaţii de adunare efectuate. Care dintre următoarele afirmaţii este(sunt) adevarată(e)?",
+        "Answer1": "Algoritmul returnează câte cifre impare are numărul n",
+        "Answer2": "Algoritmul returnează numărul de cifre egale cu 1 din reprezentarea binară a lui n",
+        "Answer3": "T(n)=1 dacă n<2 şi T(n)=T([n/2])+n MOD 2 dacă n≥2",
+        "Answer4": "T(n)=0 dacă n<2 şi T(n)=T([n/2])+1 dacă n≥2",
+        "Answer5": "T(n) aparține lui O(n)",
+        "Answer6": "T(n) aparține lui O(log n)",
+        "Answer": "b,d,f",
+        "Image": "asd_5.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Algoritmul de sortare rapidă este cel mai potrivit pentru:",
+        "Answer1": "Sortarea unei liste mari cu elemente aleatoare",
+        "Answer2": "Sortarea unei liste aproape ordonate",
+        "Answer3": "Sortarea unei liste scurte",
+        "Answer4": "Nu este potrivit pentru niciun fel de sortare",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se consideră şirul lui Fibonacci dat de relaţia de recurenţă F0 = 0, F1 = 1 şi Fn+1 = Fn + Fn-1. De câte ori este evaluat F2 pentru a calcula F5 în cazul calculului termenului Fn în mod recursiv.",
+        "Answer1": "De 3 ori",
+        "Answer2": "O dată",
+        "Answer3": "De 4 ori",
+        "Answer4": "De 5 ori",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmaţii NU sunt adevărate în cazul algoritmului de căutare binară:",
+        "Answer1": "Trebuie folosit un tablou sortat",
+        "Answer2": "Trebuie să avem acces direct la elementul din mijloc",
+        "Answer3": "Algoritmul nu este eficient atunci când avem mai mult de 1000 de elemente",
+        "Answer4": "Algoritmul realizează sortarea elementelor unui tablou",
+        "Answer": "c,d",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se consideră următorul algoritm aplicat unui număr n de forma n = ckck-1 . . . c1c0: Dacă p este o variabilă (implicită) care contorizează numărul de executări ale ciclului (contorul ciclului), care este proprietatea invariantă?",
+        "Answer1": "s = c0+c1+...+cp, n = ckck-1...cp",
+        "Answer2": "s = c0+c1+...+cp-1, n = ckck-1...cp",
+        "Answer3": "s = c0+c1+...+cp-1, n = ckck-1...c1c0",
+        "Answer4": "n = ckck-1 ...cp",
+        "Answer": "b",
+        "Image": "asd_9.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Fie A = (a1 , ..., an ) un multiset. Pentru a găsi S = (s1 , ..., sk ), un subset al lui A folosind tehnica căutarii local optimale (căutare lacomă - greedy):",
+        "Answer1": "La fiecare pas elementul care pare a fi cel mai promițător la pasul respectiv este selectat din A și adăugat la S.",
+        "Answer2": "La fiecare pas elementul care pare a fi cel mai promițător la pasul respectiv este selectat din A și adăugat la S. Dacă ulterior nu este bun îl putem înlocui cu o altă componentă.",
+        "Answer3": "La fiecare pas elementul care pare a fi cel mai promițător pe ansamblul problemei este selectat din A și adăugat la S.",
+        "Answer4": "La fiecare pas un element oarecare este selectat din A și adăugat la S.",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "O listă liniară simplu înlănţuită este:",
+        "Answer1": "Lista liniară, în care relaţia de ordonare este materializată pe suport printr-un pointer către elementul următor",
+        "Answer2": "O structură de date implementată prin tipul tablou",
+        "Answer3": "O structură de date circulară",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmaţii sunt corecte?",
+        "Answer1": "Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare într-un arbore binar de căutare este O(log n)",
+        "Answer2": "Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare într-un arbore AVL este O(log n)",
+        "Answer3": "Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare într-un arbore splay tree este O(log n)",
+        "Answer": "b",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Ce structură de date poate fi folosită pentru a implementa o traversare iterativă a unui arbore binar de căutare?",
+        "Answer1": "Queue",
+        "Answer2": "Stack",
+        "Answer3": "Hash Table",
+        "Answer4": "Splay tree",
+        "Answer": "b",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care este complexitatea de inserare a unui element într-o listă înlănţuită sortată?",
+        "Answer1": "O(1)",
+        "Answer2": "Θ(1)",
+        "Answer3": "O(n)",
+        "Answer4": "Θ(logn)",
+        "Answer": "c",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "O stivă este:",
+        "Answer1": "Listă liniară în care inserările se fac la un capăt al listei şi suprimările la celălalt capăt al listei",
+        "Answer2": "O listă liniară de tipul LIFO (Last In First Out)",
+        "Answer3": "O listă liniară cu restricţie la intrare",
+        "Answer4": "O listă liniară în care se manipulează mereu elementul cel mai recent introdus",
+        "Answer": "b,d",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "O structură de date de tip coadă este:",
+        "Answer1": "Structură de tip listă cu restricţie la intrare",
+        "Answer2": "O listă liniară de tipul FIFO (First In First Out)",
+        "Answer3": "O listă liniară în care toate operaţiile se efectuează doar la unul din capetele listei",
+        "Answer4": "O listă liniară în care inserările se efectuează la un capăt al listei, iar suprimările şi orice alt acces se efectuează la celălalt capăt al listei",
+        "Answer": "b,d",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "În care din următoarele structuri de date, căutarea are complexitate (worst-case) O(log n)?",
+        "Answer1": "Liste înlănţuite",
+        "Answer2": "Heap",
+        "Answer3": "Liste skip",
+        "Answer4": "Arbori splay",
+        "Answer": "c",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care din variantele de parcurgere a unui arbore binar de căutare poate fi folosită pentru afişarea tuturor nodurilor ordonate după cheia nodului.",
+        "Answer1": "Parcurgere breadth-first",
+        "Answer2": "Preordine",
+        "Answer3": "Inordine",
+        "Answer4": "Postordine",
+        "Answer": "c",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care este înălţimea minimă a unui arbore binar de căutare cu N noduri?",
+        "Answer1": "O(1)",
+        "Answer2": "O(N)",
+        "Answer3": "O(N · log2(N))",
+        "Answer4": "O(log2(N))",
+        "Answer": "d",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Care din afirmaţiile următoare sunt adevărate referitoare la operaţia de căutare într-un arbore binar de căutare cu N noduri:",
+        "Answer1": "Căutarea unui nod se face în O(log2(N)) dacă arborele este echilibrat.",
+        "Answer2": "Căutarea unui nod se face întotdeauna în O(1) dacă nodul căutat nu există.",
+        "Answer3": "Căutarea unui nod se face în (worst-case) O(N) dacă arborele nu este echilibrat.",
+        "Answer4": "Căutarea unui nod se face în O(N · log2(N)).",
+        "Answer": "a,c",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Fie următorul arbore binar de căutare, din care stergem (prin copiere) nodul 40. Care dintre următoarele afirmatii NU sunt adevărate:",
+        "Answer1": "La stergerea nodului 40, acesta va putea fi înlocuit de nodul 35",
+        "Answer2": "La stergerea nodului 40, acesta va putea fi înlocuit de nodul 37",
+        "Answer3": "La stergerea nodului 40, acesta va putea fi înlocuit de nodul 38",
+        "Answer4": "La stergerea nodului 40, acesta va putea fi înlocuit de nodul 44",
+        "Answer": "a,b",
+        "Image": "asd_21.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Fie următorul arbore binar de cautare, din care stergem (prin copiere) nodul 20. Care dintre următoarele afirmatii sunt adevărate:",
+        "Answer1": "La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 12",
+        "Answer2": "La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 11",
+        "Answer3": "La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 23",
+        "Answer4": "La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 22",
+        "Answer": "a,d",
+        "Image": "asd_22.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Fie urmatorul arbore binar. Parcurgerea in postordine corecta a acestui arbore este:",
+        "Answer1": "5,2,1,9,6,8,4,3",
+        "Answer2": "1,9,2,4,3,8,6,5",
+        "Answer3": "5,2,1,9,4,6,8,3",
+        "Answer4": "1,9,2,5,3,8,6,4",
+        "Answer": "b",
+        "Image": "asd_23.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Fie urmatorul arbore binar. Parcurgerea in inordine a acestui arbore este:",
+        "Answer1": "1,9,2,4,3,18,16,10",
+        "Answer2": "10,2,1,9,16,18,4,3",
+        "Answer3": "1,2,9,10,16,4,18,3",
+        "Answer4": "1,2,3,4,9,10,16,18",
+        "Answer": "c",
+        "Image": "asd_24.png",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care are proprietatea de heap: Pentru orice nod N, dacă P este părintele lui N atunci cheia lui P este mai mică decât cheia lui N. Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2^m - 1] cu două atribute suplimentare: capacitatea A.length = 2^m - 1 şi mărimea A.size = n, astfel încât A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui nod P reţinut în A[i] atunci N este reţinut în A[2·i+1] (resp. A[2·i+2]). Pentru 0 ≤ i,j < n definim relaţia bunic(i,j) dacă A[j] reţine părintele părintelui nodului din A[i]. Formula ce defineşte relaţia bunic(i,j) în un min-heap binar este:",
+        "Answer1": "(4·j+3≤i)∧(i≤4·j+6)",
+        "Answer2": "(4·i+3≤j)∧(j≤4·i+6)",
+        "Answer3": "j = ⌊i/4⌋",
+        "Answer4": "(4·j+1≤i)∧(i≤4·j+2)",
+        "Answer5": "(4·i+1≤j)∧(j≤4·i+2)",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care are proprietatea de heap: Pentru orice nod N, dacă P este părintele lui N atunci cheia lui P este mai mică decât cheia lui N. Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2^m - 1] cu două atribute suplimentare: capacitatea A.length = 2^m - 1 şi mărimea A.size = n, astfel încât A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui nod P reţinut în A[i] atunci N este reţinut în A[2·i+1] (resp. A[2·i+2]). Pentru 0 ≤ i,j < n definim relaţia bunic(i,j) dacă A[j] reţine părintele părintelui nodului din A[i]. Numărul maxim de noduri în un min-heap binar cu adâncimea h este:",
+        "Answer1": "2^(h+1) - 1",
+        "Answer2": "2^h",
+        "Answer3": "h^2 - 1",
+        "Answer4": "2^(h-1) + 1",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care are proprietatea de heap: Pentru orice nod N, dacă P este părintele lui N atunci cheia lui P este mai mică decât cheia lui N. Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2^m - 1] cu două atribute suplimentare: capacitatea A.length = 2^m - 1 şi mărimea A.size = n, astfel încât A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui nod P reţinut în A[i] atunci N este reţinut în A[2·i+1] (resp. A[2·i+2]). Pentru 0 ≤ i,j < n definim relaţia bunic(i,j) dacă A[j] reţine părintele părintelui nodului din A[i]. (1) Dacă A este un min-heap binar atunci A este sortat în ordinea crescătoare a cheilor din noduri? (2) Dacă A este sortat în ordinea crescătoare a cheilor din noduri atunci A este un min-heap binar?",
+        "Answer1": "(1) fals (2) adevărat",
+        "Answer2": "(1) fals (2) fals",
+        "Answer3": "(1) adevărat (2) adevărat",
+        "Answer4": "(1) adevărat (2) fals",
+        "Answer": "a",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care are proprietatea de heap: Pentru orice nod N, dacă P este părintele lui N atunci cheia lui P este mai mică decât cheia lui N. Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2m - 1] cu două atribute suplimentare: capacitatea A.length = 2m - 1 şi mărimea A.size = n, astfel încât A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui nod P reţinut în A[i] atunci N este reţinut în A[2·i+1] (resp. A[2·i+2]). Pentru 0 ≤ i,j < n definim relaţia bunic(i,j) dacă A[j] reţine părintele părintelui nodului din A[i]. Timpul de execuţie a operaţiei de ştergere a nodului cu cheie minimă din un min-heap binar cu n noduri este:",
+        "Answer1": "O(1)",
+        "Answer2": "O(logn)",
+        "Answer3": "Θ(nlogn)",
+        "Answer4": "Θ(n)",
+        "Answer": "b",
+        "Category": "Algoritmi si structuri de date"
+    },
+    {
+        "QuestionTitle": "Se dau mulţimile A = {a,b,c}, B = {A,B,C,D} şi C = {1,2,3,4,5}. Câte submulţimi ale mulţimii A U B U C conţin un element din A, două din B şi cel puţin 4 elemente din C?",
+        "Answer1": "15",
+        "Answer2": "14",
+        "Answer3": "100",
+        "Answer4": "108",
+        "Answer": "d",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Câte numere întregi cuprinse între 1 şi 1000 se divid cu 7, dar nu se divid cu 3?",
+        "Answer1": "93",
+        "Answer2": "95",
+        "Answer3": "92",
+        "Answer4": "136",
+        "Answer": "b",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "În câte feluri putem forma un buchet cu cinci trandafiri dacă putem folosi trandafiri roşii, galbeni şi albi? Ordinea punerii trandafirilor în buchet nu este relevantă.",
+        "Answer1": "21",
+        "Answer2": "120",
+        "Answer3": "125",
+        "Answer4": "243",
+        "Answer5": "15",
+        "Answer": "a",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Un mesaj transmis pe un canal de comunicare este o secvenţă de 2 tipuri de semnale: semnale de tip A care durează 1 microsecundă, şi semnale de tip B care durează 2 microsecunde. De exemplu, mesajul ABAAB durează 3 x 1 + 2 x 2 = 7 microsecunde. Fie an numărul de mesaje diferite care durează n microsecunde. Care este valoarea lui a10?",
+        "Answer1": "89",
+        "Answer2": "55",
+        "Answer3": "2917",
+        "Answer4": "144",
+        "Answer": "a",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "In internet, format din reţele interconectate de calculatoare, fiecărei conexiuni de reţea dintr-un calculator i se atribuie o adresă internet. Protocolul IPv4 prevede că o adresă internet este un şir de 32 biţi, format din un număr de reţea (netid) urmat de un număr de gazdă (hostid). Sunt 3 tipuri de adrese internet: (vezi imagine). Câte adrese IPv4 diferite sunt disponibile pentru conexiunile de reţea din internet?",
+        "Answer1": "2^29 ·2^30 ·2^31",
+        "Answer2": "2^31",
+        "Answer3": "7·2^29",
+        "Answer4": "2^32",
+        "Answer": "c",
+        "Image": "tgc_5.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Fie reţeaua de transport G cu sursa s şi destinaţia t: (vezi imagine). Care este valoarea fluxului maxim în G?",
+        "Answer1": "8",
+        "Answer2": "5",
+        "Answer3": "6",
+        "Answer4": "7",
+        "Answer": "d",
+        "Image": "tgc_6.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Fie graful ponderat: (vezi imagine). Ce greutate totală are arborele minim de acoperire al acestui graf?",
+        "Answer1": "229",
+        "Answer2": "216",
+        "Answer3": "230",
+        "Answer4": "234",
+        "Answer": "a",
+        "Image": "tgc_7.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Care din grafurile următoare este eulerian?",
+        "Answer1": "G1,G4",
+        "Answer2": "G2,G3",
+        "Answer3": "niciunul",
+        "Answer4": "G4",
+        "Answer5": "G1,G3",
+        "Answer": "b",
+        "Image": "tgc_8.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Care din grafurile următoare are un cuplaj perfect?",
+        "Answer1": "G1",
+        "Answer2": "G2",
+        "Answer3": "G3",
+        "Answer4": "G4",
+        "Answer5": "216",
+        "Answer": "a",
+        "Image": "tgc_9.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Câţi arbori diferiţi cu 5 noduri, numerotate de la 1 la 5, există?",
+        "Answer1": "10",
+        "Answer2": "273",
+        "Answer3": "32",
+        "Answer4": "120",
+        "Answer5": "125",
+        "Answer": "e",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Câte cuplaje maxime are graful bipartit complet Km,n dacă 1 ≤ m ≤ n? Observaţi că un astfel de cuplaj trebuie să aibe m muchii.",
+        "Answer1": "m",
+        "Answer2": "m+n",
+        "Answer3": "P(n,m)",
+        "Answer4": "C(n,m)",
+        "Answer5": "m^n",
+        "Answer6": "n^m",
+        "Answer": "c",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Câte muchii are graful complet Kn?",
+        "Answer1": "C(n,2)",
+        "Answer2": "n^2",
+        "Answer3": "2^n",
+        "Answer4": "n·(n-1)",
+        "Answer5": "n",
+        "Answer": "a",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Se presupune că n ≥ 3. Câte regiuni are o reprezentare planară a grafului bipartit complet Kn,2?",
+        "Answer1": "n+1",
+        "Answer2": "n",
+        "Answer3": "2·n",
+        "Answer4": "C(n,2)",
+        "Answer5": "P(n,2)",
+        "Answer": "b",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Un şir ternar este un şir care conţine doar cifrele 0,1 şi 2. Fie an numărul şirurilor ternare de lungime n care nu conţin apariţii consecutive ale cifrei 0. De exemplu, a1 = 3 şi a2 = 8. Care din formulele următoare are loc pentru orice n ≥ 3:",
+        "Answer1": "an =2an-1 +2an-2",
+        "Answer2": "an =2an-1 +2an-2 +3^(n-1)",
+        "Answer3": "an =2an-1 +3an-2",
+        "Answer4": "an =2an-1 +3^(n-1)",
+        "Answer": "a",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Care dintre grafurile următoare au numărul cromatic 2:",
+        "Answer1": "Orice arbore cu n ≥ 2 noduri.",
+        "Answer2": "Orice graf complet Kn cu număr par de noduri.",
+        "Answer3": "Orice graf complet Kn cu număr impar de noduri mai mare sau egal ca 3.",
+        "Answer4": "Orice graf ciclic Cn cu n ≥ 2 număr par.",
+        "Answer5": "Orice graf ciclic Cn cu n ≥ 2 număr impar.",
+        "Answer6": "Orice graf bipartit Km,n.",
+        "Answer": "a,d,f",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "A⊕B = C ∈ Mn dacă C[i][j] = max(A[i][j],B[i][j]) şi A⊙k B = D ∈ Mn dacă D[i][j] = A[i][k] · B[k][j]. Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de adiacenţă. Numărul de grafuri neorientate simple cu n noduri numerotate de la 1 la n este:",
+        "Answer1": "2^(n*(n-1)/2",
+        "Answer2": "2^n",
+        "Answer3": "n(n-1)/2",
+        "Answer4": "n-1",
+        "Answer5": "n·(n-1)",
+        "Answer": "a",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Fie Mn mulţimea matricilor de dimensiune n x n cu elemente 0 sau 1. Pentru orice două matrici A, B ∈ Mn şi 1 ≤ k ≤ n definim operaţiile A ⊕ B şi A ⊙k B în felul următor: A ⊕ B = C ∈ Mn dacă C[i][j] = max(A[i][j], B[i][j]) şi A ⊙k B = D ∈ Mn dacă D[i][j] = A[i][k] · B[k][j] pentru toţi 1 ≤ i, j ≤ n.Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de adiacenţă. Fie In matricea identitate de dimensiune n x n, şi 1 ≤ p ≤ n. Se consideră algoritmul următor de calcul al matricii B ∈ Mn",
+        "Answer1": "Θ(p·n^2)",
+        "Answer2": "Θ(p·n)",
+        "Answer3": "Θ(p·n^3)",
+        "Answer4": "Θ(n),Θ(p·2^n)",
+        "Answer": "a",
+        "Image": "tgc_17.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Fie Mn mulţimea matricilor de dimensiune n x n cu elemente 0 sau 1. Pentru orice două matrici A, B ∈ Mn şi 1 ≤ k ≤ n definim operaţiile A ⊕ B şi A ⊙k B în felul următor: A ⊕ B = C ∈ Mn dacă C[i][j] = max(A[i][j], B[i][j]) şi A ⊙k B = D ∈ Mn dacă D[i][j] = A[i][k] · B[k][j] pentru toţi 1 ≤ i, j ≤ n. Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de adiacenţă. Fie In matricea identitate de dimensiune n x n, şi 1 ≤ p ≤ n. Se consideră algoritmul următor de calcul al matricii B ∈ Mn",
+        "Answer1": "Există o cale de lungime cel mult p + 1 de la nodul i la nodul j.",
+        "Answer2": "Există o cale de lungime p de la nodul i la nodul j",
+        "Answer3": "Există o cale de la nodul i la nodul j care trece prin nodul p.",
+        "Answer4": "Există o cale de la nodul i la nodul j care trece prin toate nodurile din mulţimea {1, 2, . . . , p}.",
+        "Answer": "a",
+        "Image": "tgc_18.png",
+        "Category": "Teoria grafurilor si combinatorica"
+    },
+    {
+        "QuestionTitle": "Consideraţi, în logica predicatelor, limbajul care conţine următoarele simboluri: (vezi imagine) Care din următoarele sunt termeni peste acest limbaj?",
+        "Answer1": "(0*x)-1",
+        "Answer2": "1+(z*x)<0",
+        "Answer3": "x+((-1)*0)",
+        "Answer4": "0*(y+1)",
+        "Answer": "c,d",
+        "Image": "lc_1.png",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Pentru următoarele formule propoziţionale, şi pentru interpretarea {P, ¬Q}:",
+        "Answer1": "((P ⇒ Q) ∧ ((¬Q) ∧ P )) are valoarea sub interpretare A",
+        "Answer2": "((P ⇒ Q) ⇒ (Q ⇒ P )) are valoarea sub interpretare A",
+        "Answer3": "((¬(P v Q)) ∧ (¬Q)) are valoarea sub interpretare F .",
+        "Answer": "b,c",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmaţii este adevărată:",
+        "Answer1": "dacă o formulă propoziţională este validă, atunci este satisfiabilă",
+        "Answer2": "dacă o formulă propoziţională nu este validă, atunci este nesatisfiabilă",
+        "Answer3": "dacă o formulă propoziţională nu este validă, atunci negaţia sa este satisfiabilă",
+        "Answer4": "dacă o formulă propoziţională nu este validă, atunci negaţia sa este validă",
+        "Answer": "a,c",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Care este relaţia dintre propoziţiile (F ∧ G) ⇒ H şi F ⇒ (G ⇒ H)?",
+        "Answer1": "sunt logic echivalente",
+        "Answer2": "prima este o consecinţă logică a celei de-a doua",
+        "Answer3": "a doua este o consecinţă logică a primeia",
+        "Answer4": "nu se relaţionează în niciun fel descris mai sus",
+        "Answer": "a,b,c",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Formula P⇔Q este: ... aceste formule fiind: Q ⇒ R, R ⇒ (P ∧ Q), P ⇒(QvR).",
+        "Answer1": "logic echivalentă cu conjuncţia formulelor de mai jos",
+        "Answer2": "o consecinţă logică a formulelor de mai jos",
+        "Answer3": "logic echivalentă cu disjuncţia formulelor de mai jos",
+        "Answer": "b",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Care din formulele de mai jos sunt în formă normală disjunctivă?",
+        "Answer1": "P",
+        "Answer2": "¬P v Q",
+        "Answer3": "P ∧ ¬Q ∧ S",
+        "Answer4": "(P ∧¬Q∧S)v¬S",
+        "Answer": "a,b,c,d",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Care din următoarele este un rezolvent al clauzelor {P, ¬Q, R} şi {¬P, Q, S}?",
+        "Answer1": "∅",
+        "Answer2": "{P,¬P,R,S}",
+        "Answer3": "{R,S}",
+        "Answer": "b",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Pentru a verifica faptul că o formulă G este o consecinţă logică a formulelor F1, . . . , Fn, se poate:",
+        "Answer1": "verifica dacă (F1 ∧ . . . ∧ Fn) ⇒ G este nesatisfiabilă",
+        "Answer2": "verifica dacă ¬F1 v . . . v ¬Fn v G este nesatisfiabilă",
+        "Answer3": "verifica dacă ¬F1 v ... v¬Fn v G este validă",
+        "Answer4": "verifica dacă F1 ∧ . . . ∧ Fn ∧ ¬G este nesatisfiabilă",
+        "Answer": "c,d",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Există o formulă logic echivalenta cu (vezi imagine) care conţine doar conectori propoziţionali din mulţimea: ..(vezi raspunsuri)... unde | este conectorul NŞI (i.e. P |Q = ¬(P ∧ Q)).",
+        "Answer1": "{¬,v}",
+        "Answer2": "{v,∧}",
+        "Answer3": "{|}",
+        "Answer4": "{⊥,→}",
+        "Answer": "a,d,f",
+        "Image": "lc_9.png",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Mulţimea de clauze ce corespunde formulei (¬P ⇒(Q∧R))⇒(P ⇒¬Q) este:",
+        "Answer1": "{{¬P,¬Q}}",
+        "Answer2": "{{P,¬Q},{P,R},{¬Q,R}}",
+        "Answer3": "{{P,¬Q,¬R},{P,Q,R},{¬P,¬Q,R}}",
+        "Answer": "a",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Consideraţi mulţimea de clauze: (1) {P, Q, ¬R}, (2) {¬P, R}, (3) {P, ¬Q, S}, (4) {¬P, ¬Q, ¬R}, (5) {P,¬S}. Formula corespunzătoare acestei mulţimi este:",
+        "Answer1": "validă",
+        "Answer2": "satisfiabilă",
+        "Answer3": "nesatisfiabilă",
+        "Answer": "b",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Metoda Davis-Putnam returnează răspunsul satisfiabil:",
+        "Answer1": "când se generează clauza vidă",
+        "Answer2": "când se generează mulţimea vidă de clauze",
+        "Answer3": "când nu se pot genera clauze noi, şi clauza vidă nu este în mulţimea de clauze",
+        "Answer": "b,c",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Pentru a demonstra o formulă G când se cunoaşte o disjuncţie A v B:",
+        "Answer1": "se presupune A şi se demonstrează G, apoi se presupune B şi se demonstrază G",
+        "Answer2": "se presupune A şi se demonstrează G",
+        "Answer3": "se presupune ¬A şi se demonstrează B şi G",
+        "Answer": "a",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Fie P,Q,R variabile propoziţionale. Care din formulele propoziţionale de mai jos corespund funcţiei booleene cu trei argumente care returnează A dacă argumentele sale reprezintă codificarea binară a unui număr prim este:",
+        "Answer1": "P ∧ Q ∧ ¬R",
+        "Answer2": "(¬P ∧Q)v(P ∧R)",
+        "Answer3": "(¬P ∧Q∧¬R)v(((¬P ∧Q)vP)∧R)",
+        "Answer4": "((¬P ∧Q)v(P ∧¬Q)v(P ∧Q))",
+        "Answer": "b,c",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Fie mulţimea de clauze: {{¬P, ¬Q, R}, {P, ¬Q, ¬R}, {¬P, R}, {P, ¬Q, R}, {¬Q, ¬R}} . Primul pas în aplicarea metodei Davis Putnam asupra mulţimii de clauze consistă în: ",
+        "Answer1": "aplicarea regulii de împărţire (folosind literalul ¬P );",
+        "Answer2": "aplicarea regulii literalului pur (unde literalul pur este ¬Q);",
+        "Answer3": "aplicarea unui pas de rezoluţie;",
+        "Answer4": "aplicarea regulii clauzei cu un singur literal (folosind ultima clauză).",
+        "Answer": "b",
+        "Category": "Logica Computationala"
+    },
+    {
+        "QuestionTitle": "Limbajul generat de gramatica G = (VN,VT,S,P), unde VN = {S}; VT = {a,b}; P = {S → aSb|aAb, A → aA|λ}, este:",
+        "Answer1": "L={a^mb^n|m≥n≥1,}",
+        "Answer2": "L = {a^na^mb^n|n ≥ 0,m ≥ 0}",
+        "Answer3": "L = {a^(i+1)b^i|i ≥ 1}",
+        "Answer4": "L = {a^(n+i)bn|n ≥ 1,i ≥ 0}",
+        "Answer": "a,d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Regulile gramaticii G = (VN,VT,S,P), unde VN = {S}, VT = {PCR,PDAR,UDMR}, P = {S → PCR|PDAR|UDMR}, respectă restricţiile impuse gramaticilor:",
+        "Answer1": "regulate (tip 3)",
+        "Answer2": "independente de context (tip 2)",
+        "Answer3": "dependente de context (tip 1)",
+        "Answer4": "de tipul 0, 1, 2, 3",
+        "Answer": "a,b,c,d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Regulile gramaticii G = (VN,VT,S,P), unde P = {S → abc|aAbc, Ab → bA, Ac → Bbcc, bB → Bb, aB → aaA|aa}, respectă restricţiile impuse gramaticilor:",
+        "Answer1": "regulate (tip 3)",
+        "Answer2": "independente de context (tip 2)",
+        "Answer3": "dependente de context (tip 1)",
+        "Answer4": "de tipul 0",
+        "Answer": "d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Expresia regulată ce notează limbajul L = {w| şiruri de 0 şi 1 ce conţin cel putin un simbol 1 }, este:",
+        "Answer1": "(0|1)*1",
+        "Answer2": "1|(0|1)*1(1|0)*",
+        "Answer3": "0*11*",
+        "Answer4": "(0|1)*1(0|1)*",
+        "Answer": "b,d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Limbajul L notat de expresia regulata 01*|1; este:",
+        "Answer1": "L = {0,1,00,01,10,11,000,...}",
+        "Answer2": "L={w∈{0,1}*|w începe cu 1}",
+        "Answer3": "L={w∈{0,1}*|w începe cu 0}",
+        "Answer4": "L = {01^n|n ≥ 0} S{1}",
+        "Answer": "d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Limbajul L notat de expresia regulata (1|0)*0(0|1) este:",
+        "Answer1": "L = {0,1,00,01,10,11,...}",
+        "Answer2": "L={w∈{0,1}*|w se termină cu 00 sau 01}",
+        "Answer3": "L = {w ∈ {0,1}*|w are cel putin un simbol 0 }",
+        "Answer4": "L = {w ∈ {0, 1}*|w are 0 în penultima poziţie }",
+        "Answer": "b,d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Dacă L1 este un limbaj regulat iar despre L2 nu se cunoaşte tipul dar L1 / L2 este regulat, atunci L2 poate să fie",
+        "Answer1": "mulţimea vidă",
+        "Answer2": "independente de context",
+        "Answer3": "decidabil",
+        "Answer4": "regulat",
+        "Answer": "a,b,d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Aplicând Lema de pompare pentru un limbaj regulat, considerăm un cuvânt w suficient de lung care aparţine limbajului L şi îl descompunem în . . . . . . părţi.",
+        "Answer1": "2",
+        "Answer2": "5",
+        "Answer3": "3",
+        "Answer4": "6",
+        "Answer": "c",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "O producţie de forma A → B, unde A şi B nu sunt terminale, se numeşte",
+        "Answer1": "Regulă de ştergere",
+        "Answer2": "Redenumire",
+        "Answer3": "Formă normală Greibach",
+        "Answer4": "Formă normală Chomsky",
+        "Answer": "b",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Orice gramatică în formă normală Chomsky este",
+        "Answer1": "regulată",
+        "Answer2": "dependentă de context",
+        "Answer3": "independentă de context",
+        "Answer4": "toate cele menţionate anterior",
+        "Answer": "c",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Care dintre producţiile de mai jos poate fi acceptată de gramatica în formă normală Chomsky, unde A, B, C şi S sunt neterminale iar a este terminal?",
+        "Answer1": "A→BC",
+        "Answer2": "A → a",
+        "Answer3": "S → λ",
+        "Answer4": "toate cele menţionate anterior",
+        "Answer": "d",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Care dintre următoarele seturi de reguli corespund unei gramatici în formă normală Chomsky?",
+        "Answer1": "A→AB|BC|CD,A→0,B→1,C→2,D→3",
+        "Answer2": "A → AB, S → BCA|0|1|2|3",
+        "Answer3": "S→ABa,A→aab,B→Ac",
+        "Answer4": "toate cele menţionate anterior",
+        "Answer": "a",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Fie L limbajul generat de gramatica G = (VN,VT,S,P) unde VN = {S,A,B,C,X,Y,Z}, VT = {a, b, c}, şi P = { S → λ | AX | BY | CZ, X → λ | BY | CZ, Y → λ | AX | CZ, Z → λ | AX | BY, A → a, B → b, C → c}. Alegeţi răspunsurile corecte.",
+        "Answer1": "L este limbaj regulat",
+        "Answer2": "L nu este limbaj regulat",
+        "Answer3": "L este limbaj de programare",
+        "Answer4": "",
+        "Answer": "a",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Fie L limbajul generat de gramatica G = (VN,VT,S,P) unde VN = {S,A,B,C,X,Y,Z}, VT = {a, b, c}, şi P = { S → λ | AX | BY | CZ, X → λ | BY | CZ, Y → λ | AX | CZ, Z → λ | AX | BY, A → a, B → b, C → c}. Care din afirmaţiile următoare este adevărată?",
+        "Answer1": "L = {w ∈ VT* | w nu conţine litere consecutive identice}",
+        "Answer2": "L = {w ∈ VT*| w conţine litere consecutive identice}",
+        "Answer3": "L = {w ∈ VT* | w conţine subşirul abc}",
+        "Answer4": "L = {λ}.",
+        "Answer": "a",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Fie L limbajul generat de gramatica G = (VN,VT,S,P) unde VN = {S,A,B,C,X,Y,Z}, VT = {a, b, c}, şi P = { S → λ | AX | BY | CZ, X → λ | BY | CZ, Y → λ | AX | CZ, Z → λ | AX | BY, A → a, B → b, C → c}. Fie sn numărul şirurilor din L cu lungimea n. Pentru orice n > 1 are loc relaţia de recurenţă:",
+        "Answer1": "sn = 2·sn-1",
+        "Answer2": "sn = 3·sn-1",
+        "Answer3": "sn = sn-1 +2·sn-2",
+        "Answer4": "sn = 3 sn-1 + sn-2",
+        "Answer": "a",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Fie L limbajul generat de gramatica G = (VN,VT,S,P) unde VN = {S,A,B,C,X,Y,Z}, VT = {a, b, c}, şi P = { S → λ | AX | BY | CZ, X → λ | BY | CZ, Y → λ | AX | CZ, Z → λ | AX | BY, A → a, B → b, C → c}. Câte şiruri cu lungimea 4 conţine L?",
+        "Answer1": "16",
+        "Answer2": "24",
+        "Answer3": "32",
+        "Answer4": "81",
+        "Answer5": "243",
+        "Answer": "b",
+        "Category": "Limbaje formale şi teoria automatelor"
+    },
+    {
+        "QuestionTitle": "Ce afisează următoarea secventă de cod?",
+        "Answer1": "45 4",
+        "Answer2": "51 10",
+        "Answer3": "Eroare la executie deoarece variabila y nu este definită",
+        "Answer4": "Eroare la compilare deoarece functia este apelată fără argumente",
+        "Answer5": "None",
+        "Answer": "a",
+        "Image": "py_1.png",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Considerând secventa de cod: s = ''Timisoara'' Care dintre secventele de cod de mai jos returnează sirul de caractere 'aom'?",
+        "Answer1": "s[::-3]",
+        "Answer2": "s[::2]",
+        "Answer3": "s[-1:3:1]",
+        "Answer4": "[i for i in s if i in 'aom']",
+        "Answer5": "''.join([i for i in s if i in 'aom'])",
+        "Answer": "a",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Care este valoarea expresiei: 1 + 2 ** 3 * 4",
+        "Answer1": "33",
+        "Answer2": "4097",
+        "Answer3": "36",
+        "Answer4": "108",
+        "Answer5": "42",
+        "Answer": "a",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Este sigur să folosim operatorul == pentru a verifica dacă două variabile de tip float sunt egale?",
+        "Answer1": "Nu deoarece reprezentarea internă a valorilor de tip float nu este precisă",
+        "Answer2": "Da, bineînțeles",
+        "Answer3": "Nu, operatorul pentru comparație este !=",
+        "Answer4": "Da, deoarece reprezentarea în virgulă mobilă asigură precizia necesară",
+        "Answer5": "Da, Python asigură aproximările necesare comparării valorilor de tip float",
+        "Answer": "a",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Care dintre opțiunile de mai jos reprezintă o inițializare corectă a unui dicționar?",
+        "Answer1": "d = ('nume': 'valoare')",
+        "Answer2": "d = 'nume': 'valoare'",
+        "Answer3": "d = {'nume':'valoare'}",
+        "Answer4": "d = ['nume'='valoare']",
+        "Answer": "c",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Care este rezultatul execuției următoarei secvențe de cod?",
+        "Answer1": "11",
+        "Answer2": "12",
+        "Answer3": "21",
+        "Answer4": "22",
+        "Answer5": "33",
+        "Answer": "b",
+        "Image": "py_6.png",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Fie următoarea secvență de cod: (vezi imagine) Cum putem apela metoda salut() din clasa Persoana?",
+        "Answer1": "Persoana.salut(prof1)",
+        "Answer2": "prof1.salut()",
+        "Answer3": "super(prof1).salut()",
+        "Answer4": "Persoana(prof1).salut()",
+        "Answer5": "Nu putem apela metoda salut() din clasa Persoana deoarece este supraîncărcată în clasa Profesor",
+        "Answer": "a,d",
+        "Image": "py_7.png",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Care este rezultatul execuției următoarei secvențe de cod?",
+        "Answer1": "Doar metoda __init__ din clasa B este invocată",
+        "Answer2": "Metoda __init__ din clasa A este invocată și se afișează 'i from B is 0'.",
+        "Answer3": "Metoda __init__ din clasa A este invocată și se afișează 'i from B is 60'.",
+        "Answer4": "Metoda __init__ din clasa A este invocată și se afișează 'i from B is 90'.",
+        "Answer": "d",
+        "Image": "py_8.png",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Când este executată clauza finally dintr-un bloc try:   except:",
+        "Answer1": "când nu are loc nicio excepție",
+        "Answer2": "când are loc o excepție",
+        "Answer3": "tot timpul",
+        "Answer4": "doar dacă o anumită condiție specificată este îndeplinită",
+        "Answer5": "niciodată",
+        "Answer": "c",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Care dintre variantele de mai jos deschide un fișier pentru scriere?",
+        "Answer1": "output_file = open('hello.txt', 'r')",
+        "Answer2": "output_file = open('hello.txt', 'w')",
+        "Answer3": "output_file = openFile('hello.txt', 'w')",
+        "Answer4": "output_file = File('hello.txt', 'w')",
+        "Answer5": "output_file = open(''hello.txt'', encoding=''utf8'')",
+        "Answer": "b",
+        "Category": "Limbajul Python"
+    },
+    {
+        "QuestionTitle": "Fie următoarea secvență de cod: #define swap(a,b) {int aux; aux=a; a=b; b=aux;} float x=10.5, y=3.75; în urma apelului swap(x, y); valorile variabilelor x, respectiv y vor fi:",
+        "Answer1": "x=3.75, y=10.5",
+        "Answer2": "x=3.0, y=10.5",
+        "Answer3": "x=3.75, y=10.0",
+        "Answer4": "x=3.0, y=10.0",
+        "Answer": "c",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce reprezintă domeniul de vizibilitate a unei variabile?",
+        "Answer1": "plaja de valori pe care le poate lua",
+        "Answer2": "locul unde se creează",
+        "Answer3": "locul din textul sursă unde poate fi folosită",
+        "Answer4": "dacă are semn sau nu",
+        "Answer": "c",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "La execuţia programului următor se tastează 20. Ce se va afişa după execuţie? #include <stdio.h>\nvoid main() {\nchar a; scanf(\"%c\",&a); printf(\"%c\",a); }",
+        "Answer1": "20",
+        "Answer2": "2",
+        "Answer3": "0",
+        "Answer": "b",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Care este rezultatul numeric al evaluării expresiei: a<b<c dacă a=-2, b=-1 si c=0?",
+        "Answer1": "1",
+        "Answer2": "TRUE",
+        "Answer3": "0",
+        "Answer4": "FALSE",
+        "Answer": "c",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce se va afişa în urma execuţiei secvenţei următoare: #include <stdio.h>\nvoid main() { unsigned char x=25; x=x<<2; printf(\"%d\",(int)x); }",
+        "Answer1": "27",
+        "Answer2": "100",
+        "Answer3": "23",
+        "Answer": "b",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce afişează programul? #include <stdio.h>\nvoid main() { int x,y,z; x=y=z=4; printf(\"%d\",(x<<z)-(x|y)+(z&y));}",
+        "Answer1": "64",
+        "Answer2": "4",
+        "Answer3": "0",
+        "Answer4": "5",
+        "Answer5": "33",
+        "Answer6": "32",
+        "Answer": "a",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Care din următoarele variante reprezintă modalități de comunicare între funcții?",
+        "Answer1": "apel",
+        "Answer2": "prin variabile locale",
+        "Answer3": "prin argumentele actuale",
+        "Answer4": "prin valoarea returnată",
+        "Answer5": "prin variabile globale",
+        "Answer6": "prin includere",
+        "Answer": "c,d,e",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce este contextul de apel al unei funcții?",
+        "Answer1": "lista argumentelor formale",
+        "Answer2": "o zonă de memorie (de pe stivă)",
+        "Answer3": "locul din textul sursă în care se apelează",
+        "Answer4": "instrucțiunile (definiția funcției)",
+        "Answer": "b",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Care este valoarea variabilei n după execuția secvenței: char t[ ]=\"timisoara\", *p,*q,n; p=q=t; while(*(q++)); n=q-p;",
+        "Answer1": "n=0",
+        "Answer2": "n=9",
+        "Answer3": "n=10",
+        "Answer4": "n='\\0'-'t'",
+        "Answer": "c",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce reprezintă declarația: int *(*f)(int *)? (i) funcţie ce primeşte argument pointer la întreg şi întoarce pointer la întreg ; \n(ii) o declaraţie greşită; \n(iii) pointer către o funcţie care aşteaptă ca argument un pointer la int şi întoarce un pointer la int; \n(iv) pointer către o funcţie care întoarce un int",
+        "Answer1": "i",
+        "Answer2": "ii",
+        "Answer3": "iii",
+        "Answer4": "iv",
+        "Answer5": "nici una",
+        "Answer6": "toate",
+        "Answer7": "i şi iv",
+        "Answer": "c",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Ce se afișează în urma executării următoarei secvențe de cod? #include <stdio.h>\nvoid main() { char *u[2]={\"abc\",\"def\"}, **v; v=&u[0]; printf(\"%c\",(*v)[1]); }",
+        "Answer1": "a",
+        "Answer2": "b",
+        "Answer3": "c",
+        "Answer4": "d",
+        "Answer5": "e",
+        "Answer6": "f",
+        "Answer7": "abc",
+        "Answer": "b",
+        "Category": "Limbajul C"
+    },
+    {
+        "QuestionTitle": "Un constructor se caracterizează prin următoarele proprietăţi în limbajele C++/Java:",
+        "Answer1": "Este o funcţie membră care are acelaşi nume ca şi clasa în care este declarată",
+        "Answer2": "Este o funcţie membră care întoarce o valoare",
+        "Answer3": "Este o funcţie membră care nu are valoare de return",
+        "Answer4": "Este o funcţie membră utilizată pentru a iniţializa un obiect",
+        "Answer5": "Este o funcţie membră utilizată pentru a dealoca spaţiu de memorie",
+        "Answer6": "O clasă nu poate avea mai mult de un constructor",
+        "Answer": "a,c,d",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Care dintre următoarele afirmaţii sunt adevărate despre template-uri(C++)/generice(Java)?",
+        "Answer1": "Template-urile / genericele sunt o facilitate a limbajului care permit folosirea aceluiaşi cod pentru diferite tipuri de date",
+        "Answer2": "Template-urile / genericele sunt exemple de polimorfism.",
+        "Answer3": "Template-urile / genericele nu pot fi folosite cu tipuri de date abstracte definite de utilizator.",
+        "Answer4": "În afară de template-urile / genericele implicite nu pot fi definite altele noi.",
+        "Answer": "a,b",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Care dintre următoarele afirmaţii sunt adevărate în limbajele C++/Java?",
+        "Answer1": "O funcţie statică nu poate arunca o excepţie.",
+        "Answer2": "O funcţie statică nu poate accesa o variabilă membru non-statică a clasei.",
+        "Answer3": "O funcţie statică nu poate accesa o variabilă membru statică a clasei.",
+        "Answer4": "O variabilă membru statică a clasei nu poate fi modificată într-o funcţie membră non-statică.",
+        "Answer": "b",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Excepţiile sunt:",
+        "Answer1": "Erori care apar la compilarea programului",
+        "Answer2": "Situaţii speciale tratate în program prin teste de tipul if(variabila == NULL)",
+        "Answer3": "Erori care apar la rularea programului",
+        "Answer4": "'Aruncate' folosind instrucţiunea try şi 'tratate' folosind instrucţiunea catch",
+        "Answer5": "'Aruncate' folosind instrucţiunea throw(s) şi 'tratate' în blocuri try - catch (finally)",
+        "Answer": "c,e",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Care este asocierea corectă între următoarele verbe şi relaţiile între clase?",
+        "Answer1": "(1, a), (2, b), (3, c)",
+        "Answer2": "(1, b), (2, c), (3, a)",
+        "Answer3": "(1, c), (2, b), (3, a)",
+        "Answer4": "(1, b), (2, a), (3, c)",
+        "Answer": "b",
+        "Image": "cpp_5.png",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Principiul OCP (Open Close Principle) din cadrul principiilor SOLID se referă la:",
+        "Answer1": "Responsabilităţile pe care trebuie să le implementeze o clasă",
+        "Answer2": "Realizarea de ierarhii de clase consistente",
+        "Answer3": "Problemele care apar din cauza codului duplicat",
+        "Answer4": "Posibilitatea extinderii claselor şi evitarea modificărilor claselor şi codului existent",
+        "Answer": "d",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmaţii sunt false în contextul supraîncărcării operatorilor în limbajul C++:",
+        "Answer1": "Se pot adăuga noi operatori limbajului",
+        "Answer2": "Se poate schimba n-aritatea (numărul de operanzi ai operatorului)",
+        "Answer3": "Nu toţi operatorii pot fi supraîncărcaţi",
+        "Answer4": "Operatorii se pot supraîncărca prin intermediul funcţiilor membre clasei şi funcţii prietene clasei.",
+        "Answer": "a,b",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "În limbajul C++, dacă o clasă X are ca membri variabile pointer, este recomandat să conţină:",
+        "Answer1": "Un destructor care nu face nimic X(){}",
+        "Answer2": "O funcţie friend care să permită copierea obiectului",
+        "Answer3": "Supraîncărcarea operatorului =",
+        "Answer4": "Constructorul de copiere",
+        "Answer5": "Supraîncărcarea operatorului ==",
+        "Answer6": "Un destructor în care se dealocă memoria adresată de membrii de tip pointer ai clasei",
+        "Answer": "c,d,f",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Se dă următoarea secventă de cod: De câte ori sunt apelați constructorii clasei Date?",
+        "Answer1": "2",
+        "Answer2": "3",
+        "Answer3": "4",
+        "Answer4": "5",
+        "Answer": "c",
+        "Image": "cpp_9.png",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "10. Care din următoarele afirmatii sunt adevărate?",
+        "Answer1": "clasa Curve nu poate fi instantiată deoarece metoda addControlPoint() nu este implementată",
+        "Answer2": "clasa Curve nu poate fi instantiată deoarece este clasă abstractă",
+        "Answer3": "codul se compilează cu succes",
+        "Answer": "b",
+        "Image": "cpp_10.png",
+        "Category": "Limbajul C++"
+    },
+    {
+        "QuestionTitle": "Dacă o metodă are ca parametru o referinţă la un obiect inmutabil, de exemplu clasa String, poate metoda să modifice starea obiectului?",
+        "Answer1": "Da, dacă avem o referinţă la un obiect imutabil îi putem modifica starea",
+        "Answer2": "Da, dar trebuie să folosim un operator special ''+'' ca să realizăm acest lucru",
+        "Answer3": "Nu, starea obiectelor imutabile nu poate fi modificată de nimeni după ce obiectul a fost creat",
+        "Answer4": "Nu, doar proprietarul obiectului imutabil poate să îi schimbe starea.",
+        "Answer": "c",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care dintre afirmaţiile de mai jos este adevărată în relaţie cu limbajul Java?",
+        "Answer1": "Specificatorul final se aplică la clase, atribute si metode;",
+        "Answer2": "O metodă declarată final poate apela doar metode declarate final în aceeaşi clasă;",
+        "Answer3": "O metodă declarată final nu poate fi suprascrisă la subclasare;",
+        "Answer4": "Un atribut declarat final poate fi setat doar o singură dată;",
+        "Answer": "a,c,d",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care dintre afirmaţiile de mai jos este/sunt adevărată/e despre conceptul de moştenire între clase?",
+        "Answer1": "Mecanismul prin care o clasă preia structura (datele membru) şi comportamentul (metodele) unei alte clase la care adaugă elemente specifice;",
+        "Answer2": "Prin mecanismul de moştenire avem acces la datele private ale clasei(claselor) de bază;",
+        "Answer3": "Nu toate limbajele de programare implementează conceptul de moştenire multiplă;",
+        "Answer4": "O metodă definită în clasa de bază nu poate fi suprascrisă în clasa derivată;",
+        "Answer5": "Moştenirea poate fi întotdeauna înlocuită cu compunerea obiectelor.",
+        "Answer": "a,c",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care dintre afirmaţiile de mai jos este/sunt adevărată/e referitor la conceptul de clasă abstractă în limbajul Java:",
+        "Answer1": "O clasă care nu poate fi instanţiată;",
+        "Answer2": "Nu există nicio diferenţă între clasele abstracte şi interfeţe;",
+        "Answer3": "O clasă abstractă poate conţine variabile membre care nu sunt constante.",
+        "Answer": "a,c",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care dintre afirmaţiile de mai jos este/sunt adevărată/e despre clase şi obiecte:",
+        "Answer1": "O clasă modelează caracteristici comune mai multor obiecte;",
+        "Answer2": "Un obiect este o realizare/instantă a unei clase;",
+        "Answer3": "O clasă este o realizare/instantă a unui obiect;",
+        "Answer4": "Nu există nicio legătură între clase şi obiecte.",
+        "Answer": "a,b",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmaţii sunt false relativ la limbajul Java:",
+        "Answer1": "Orice clasă este derivată din clasa Object",
+        "Answer2": "O clasă poate extinde una sau mai multe clase de bază",
+        "Answer3": "O clasă poate implementa una sau mai multe interfeţe",
+        "Answer4": "Subclasele moştenesc atributele, metodele şi constructorii clasei de bază",
+        "Answer": "b,d",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Care din următoarele afirmat, ii este/sunt adevărare despre clasa PreparedStatement?",
+        "Answer1": "Interogarea este compilată de fiecare dată când este executată",
+        "Answer2": "Permite rularea aceleiași interogări, prin compilarea ei o singură dată  si parametrizarea cu valori diferite",
+        "Answer3": "Folosirea clasei PraparedStatement evită întotdeauna SQL Injection",
+        "Answer4": "SQL Injection poate fi evitat prin folosirea placeholderului '?'",
+        "Answer": "b,d",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Două funcţii care au același nume într-o clasă Java, pot fi diferenţiate datorită:",
+        "Answer1": "Numărului de variabile din lista de parametri",
+        "Answer2": "Nu pot fi diferenţiate",
+        "Answer3": "Tipului variabilelor din lista de variabile",
+        "Answer4": "Tipului de return al funcției",
+        "Answer": "a,c",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Se consideră următoarea secventă de cod: (vezi imagine) Care din variantele de mai jos instantiază şi lansează în executie un fir de execuţie?",
+        "Answer1": "new Thread()).start()",
+        "Answer2": "a.start( )",
+        "Answer3": "a.run( )",
+        "Answer4": "new Thread.run( )",
+        "Answer": "b",
+        "Image": "java_9.png",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Considerând următoarea secventă de cod, stabiliţi care este ordinea execuției (in ipoteza că o clasă are un constructor, o metodă, un bloc static si un bloc de instantă):",
+        "Answer1": "instance block; method; static block; constructor;",
+        "Answer2": "static block; instance block; constructor; method;",
+        "Answer3": "method; constructor; instance block; static block;",
+        "Answer4": "static block; method; instance block; constructor;",
+        "Answer5": "constructor; static block; instance block; method;",
+        "Answer": "b",
+        "Image": "java_10.png",
+        "Category": "Limbajul Java"
+    },
+    {
+        "QuestionTitle": "Se consideră următoarea secventă de cod: (vezi imagine) Care din variantele de mai jos se va afișa:",
+        "Answer1": "[mere,pere,banane,kiwi,ananas,portocale]",
+        "Answer2": "[ananas,banane,kiwi,mere,pere,portocale]",
+        "Answer3": "[Ljava.lang.String;@15db9742]",
+        "Answer4": "[portocale,ananas,kiwi,mere,banane,pere]",
+        "Answer": "b",
+        "Image": "java_11.png",
+        "Category": "Limbajul Java"
+    },
+   {
+"QuestionTitle": "Verificarea software-lui poate implica",
+"Answer1": "analiza statică automată",
+"Answer2": "evaluarea utilității și utilizabilității software-lui în situații operaționale.",
+"Answer3": "depanarea erorilor",
+"Answer4": "inspectări ale software-lui",
+"Answer5": "testarea în vederea descoperirii existenței erorilor",
+"Answer6": "testarea faptului că software-ul îndeplinește cerint,ele utilizator",
+"Answer": "a,d,e",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Diagrama de stări și tranziții reprezintă",
+"Answer1": "funcțiile sistemului",
+"Answer2": "răspunsul sistemului la evenimente interne",
+"Answer3": "răspunsul sistemului la evenimente externe",
+"Answer4": "interacțiuni între obiecte din sistem",
+"Answer5": "structura datelor",
+"Answer6": "interact,iunile actorilor cu sistemul",
+"Answer7": "fluxul de prelucrare a datelor în sistem",
+"Answer": "b,c",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Metodele agile de dezvoltare de software implică",
+"Answer1": "Furnizare incrementală",
+"Answer2": "Implicarea clientului pe parcursul procesului de dezvoltare",
+"Answer3": "Instituirea de procese normative pentru lucrul în echipă",
+"Answer4": "Acțiuni periodice de eliminare a complexității din sistem",
+"Answer5": "Modelarea completă a software-lui înainte de scrierea codului",
+"Answer": "a,b,d",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Bifați situațiile în care se reutilizează doar concepte:",
+"Answer1": "Servicii software",
+"Answer2": "Șabloane de proiectare (design patterns)",
+"Answer3": "Biblioteci de programe",
+"Answer4": "Șabloane arhitecturale",
+"Answer": "b,d",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+        "QuestionTitle": "Fie următoarea diagramă de clase.Fie următoarea diagramă de clase.",
+        "Answer1": "Un obiect de tip ComputerScience conține o colecție de obiecte de tip Student",
+        "Answer2": "Clasa Questionnaire are un atribut public de tip String",
+        "Answer3": "Clasa ComputerScience are operația publică addStudent(s:String)",
+        "Answer4": "Clasa ComputerScience are operația privată setSchedule(s:String)",
+        "Answer5": "Clasa Tutor este superclasă pentru clasa Masterand",
+		"Answer6": "Clasa ComputerScience definește o compoziție de obiecte de tip Questionnaire.",
+		"Answer7": "Între clasa ComputerScience și clasa Tutor există o asociere unidirecțională.",
+		"Answer8": "Clasa ComputerScience moștenește interfața Specialization.",
+		"Answer9": "Clasa Tutor definește un agregat de obiecte de tip Masterand.",
+        "Answer": "a,c,e,f",
+		"Image":"pas_5.png",
+        "Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de clase. Care secvență de cod Java descrie corect și complet relațiile clasei Proiect?",
+"Answer1": "class Proiect extends Student {\nprivate Collection <DiagramaUML> diagramele = new ArrayList<>();\nprivate CodSursa codul;\n...},",
+"Answer2": "class Proiect {\nprivate Collection <Student> studenti;\nprivate Collection <DiagramaUML> diagramele = new ArrayList<>();\nprivate CodSursa codul;\n...},",
+"Answer3": "class Proiect {\nprivate Student student;\nprivate DiagramaUML diagrama;\nprivate CodSursa codul;\n...},",
+"Answer4": "class Proiect {\nprivate Collection <Student> studenti = new ArrayList<>();\nprivate Collection <DiagramaUML> diagramele;\nprivate CodSursa codul;\n...},",
+"Answer": "b",
+"Image":"pas_6.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de clase. Care secvență de cod Java descrie corect și complet relațiile clasei Revista?",
+"Answer1": "class Revista extends RevistaOnLine implements Produs {\nprivate Collection <Articol> articole;\n...},",
+"Answer2": "class Revista implements Produs {\nprivate Collection <Articol> articole = new LinkedList<>();\nprivate RevistaOnLine revista;\n...},",
+"Answer3": "class Revista implements Produs {\nprivate Collection <Articol> articole = new LinkedList<>();\n...},",
+"Answer4": "class Revista extends RevistaOnLine {\nprivate Collection <Articol> articole = new LinkedList<>();\nprivate Produs produs;\n...},",
+"Answer": "c",
+"Image":"pas_7.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de clase. Selectați descrierea corectă și completă a relațiilor reprezentate în diagramă:",
+"Answer1": "Asociere bidirecțională între clasele Proiect și CodSursa; compoziție între clasele Proiect (componentă) și DiagramaUML (componenta); agregare între clasele Proiect (agregat) și Student (componenta); generalizare între interfața IStudent (implementată) și clasa Student (implementează); realizare între clasa Student (superclasă) și clasa Bursier (subclasă)",
+"Answer2": "Asociere bidirecțională între clasele Proiect și CodSursa; compoziție între clasele Proiect (componentă) și DiagramaUML (componenta); agregare între clasele Proiect (agregat) și Student (componenta); realizare între interfața IStudent (implementată) și clasa Student (implementează); generalizare între clasa Student (superclasă) și clasa Bursier (subclasă)",
+"Answer3": "Asociere bidirecțională între clasele Proiect și CodSursa; agregare între clasele Proiect (agregat) și DiagramaUML (componenta); compoziție între clasele Proiect (agregat) și Student (componenta); realizare între interfața IStudent (implementată) și clasa Student (implementează); generalizare între clasa Student (superclasă) și clasa Bursier (subclasă)",
+"Answer4": "Asociere bidirecțională între clasele Proiect și CodSursa; compoziție între clasele DiagramaUML (componenta) și Proiect (componenta); agregare între clasele Student (agregat) și Proiect (componenta); realizare între interfața IStudent (implementată) și clasa Student (implementează); generalizare între clasa Student (superclasă) și clasa Bursier (subclasă)",
+"Answer": "b",
+"Image":"pas_8.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de clase. Care secvență de cod Java descrie corect și complet relația clasei Proiect cu clasa Student?",
+"Answer1": "class Student extends Proiect{...},\nclass Proiect{...},",
+"Answer2": "class Proiect extends Student{...},\nclass Student{...},",
+"Answer3": "class Proiect {\n private Collection <Student> studenti ...\n},\nclass Student{...},",
+"Answer4": "class Proiect {\n private Collection <Student> studenti ...\n},\nclass Student {\n private Proiect proiect;\n ...},",
+"Answer5": "class Proiect {\n private Collection <Student> studenti ...\n},\nclass Student {\n private Collection<Proiect> proiecte;\n ...},",
+"Answer": "c",
+"Image":"pas_9.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de secvențe. Ce operații ale clasei ControlerInscriere rezultă din aceasta?",
+"Answer1": "getCursuri()",
+"Answer2": "display(listaCursuriOferite)",
+"Answer3": "inscriere(student, listaCursuriSelectate)",
+"Answer4": "Plan(listaCursuriSelectate)",
+"Answer5": "addPlan(planCurent)",
+"Answer6": "displayMsg('OK')",
+"Answer": "a,c",
+"Image":"pas_10.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de secvențe. Selectați clasele din care sunt instanțiate obiectele implicate în interacțiune:",
+"Answer1": "InscriereForm",
+"Answer2": "ControlerInscriere",
+"Answer3": "listaCursuriSelectate",
+"Answer4": "curent",
+"Answer5": "Student",
+"Answer6": "Plan",
+"Answer7": "planCurent",
+"Answer": "a,b,e,f",
+"Image":"pas_11.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Fie următoarea diagramă de robustețe. Care afirmatii sunt adevărate?",
+"Answer1": "Home page este obiect boundary.",
+"Answer2": "ExtrageListaCarti poate fi obiect persistent.",
+"Answer3": "AfiseazaLinkuri este obiect de interacțiune cu actor.",
+"Answer4": "ExtrageListaCarti ar putea fi implementat ca metodă a unei clase entity.",
+"Answer5": "ListaCarti este obiect de interacțiune cu actor.",
+"Answer6": "Catalog este obiect entity.",
+"Answer": "a,d,f",
+"Image":"pas_12.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Selectați perechea de termeni cu care se înlocuiesc spațiile libere din următoarea frază:",
+"Answer1": "criterii / activități",
+"Answer2": "componente / roluri",
+"Answer3": "alphas / activity spaces",
+"Answer4": "criterii / alpha states",
+"Answer5": "alpha states / criterii",
+"Answer": "d",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Realizați corespondența corectă între concept și definiția sa:",
+"Answer1": "a – 5, b – 1, c – 4, d – 3, e – 2.",
+"Answer2": "a – 5, b – 3, c – 4, d – 1, e – 2",
+"Answer3": "a – 2, b – 1, c – 3, d – 4, e – 5",
+"Answer4": "a – 1, b – 2, c – 3, d – 4, e – 5",
+"Answer5": "a – 3, b – 2, c – 4, d – 5, e – 1",
+"Answer": "a",
+"Image":"pas_14.png",
+"Category": "Proiectarea aplicațiilor software"
+},
+{
+"QuestionTitle": "Selectați metodele de evitare a introducerii de erori în dezvoltarea de programe:",
+"Answer1": "Fiecare clasă trebuie să aibă o singură responsabilitate",
+"Answer2": "Folosire expresii regulate pentru validarea datelor de intrare",
+"Answer3": "Evitarea încuibării multiple de instrucțiuni condiționale",
+"Answer4": "Jurnalizarea interacțiunii utilizatorilor cu programul",
+"Answer5": "Înlocuirea corpului unei metode cu un nou algoritm mai clar care returnează același rezultat",
+"Answer6": "Minimizarea adâncimii ierarhiilor de clase",
+"Answer7": "Salvare automată a datelor utilizatorului la intervale presetate",
+"Answer8": "Identificarea aspectelor care variază ale unei aplicații și separarea lor de cele care nu variază",
+"Answer9": "Verificare valori date de intrare față de domeniul definit cu reguli de intrare",
+"Answer10": "Folosire aserțiuni pentru verificare rezultat de la un serviciu extern",
+"Answer": "a,c,e,f,h",
+"Category": "Proiectarea aplicațiilor software"
+},
+	    {
+      "QuestionTitle": "Care din următoarele sunt proprietăţi ale cheii candidate?",
+      "Answer1": "Unicitatea",
+      "Answer2": "Ireductibilitatea",
+      "Answer3": "Segregarea domeniului de valori",
+      "Answer4": "Completitudinea",
+      "Answer": "a,b",
+      "Category": "Baze de date"
+    },
+    {
+      "QuestionTitle": "Care din următoarele sunt limbaje ale bazei de date?",
+      "Answer1": "Data Definition Language (DDL)",
+      "Answer2": "Database Distribution Language (DDL)",
+      "Answer3": "Data Manipulation Language (DML)",
+      "Answer4": "Data Maintenance Language (DML)",
+      "Answer5": "Data Query Language (DQL)",
+      "Answer6": "Data Analysis Language (DAL)",
+      "Answer": "a,c,e",
+      "Category": "Baze de date"
+    },
+    {
+      "QuestionTitle": "Se consideră tabela R(A) conţinând înregistrările {(1), (2)} şi tranzacţiile \n(T1) UPDATE R SET A = A*2 \n(T2) SELECT AVG(A) FROM R; SELECT MAX(A) FROM R \nDacă tranzacţia T2 se execută folosind nivelul de izolare repeatable read, care dintre următoarele afirmaţii este adevărată",
+      "Answer1": "Dacă AVG(A) = 1.5 atunci MAX(A) poate să ia valorile 2 sau 4",
+      "Answer2": "AVG(A) va fi întotdeauna 1.5 iar MAX(A) = 2",
+      "Answer3": "AVG(A) poate să ia valorile 1.5 sau 3, iar MAX(A) valorile 2 sau 4",
+      "Answer4": "Dacă MAX(A) = 4 atunci AVG(A) este 1.5",
+      "Answer": "c",
+      "Category": "Baze de date"
+    },
+    {
+      "QuestionTitle": "Care dintre următoarele aspecte sunt adresate de normalizare?",
+      "Answer1": "Anomaliile la ştergere",
+      "Answer2": "Anomaliile la inserare",
+      "Answer3": "Anomaliile la actualizare",
+      "Answer4": "Redundanţa datelor",
+      "Answer5": "Volumul datelor",
+      "Answer": "a,b,c,d",
+      "Category": "Baze de date"
+    },
+	{
+      "QuestionTitle": "Trei dintre expresiile relaţionale de mai jos returnează numele studenţilor care nu au aplicat la specializările CS sau PH. Care returnează altceva? (Observaţie: numele studenţilor pot fi duplicate.)",
+       "Answer1": "bd_5_a.png",
+        "Answer2": "bd_5_b.png",
+        "Answer3": "bd_5_c.png",
+        "Answer4": "bd_5_d.png",
+	  "Answer": "d",
+      "Category": "Baze de date"
+    },
+	  {
+      "QuestionTitle": "Consideraţi următoarea interogare SQL. Care dintre indecşii următori sunt cei mai potriviţi pentru accelearea execuţiei interogării de mai sus?",
+      "Answer1": "Student.sID şi Student.Bac",
+      "Answer2": "Apply.cName şi College.cName",
+      "Answer3": "Apply.sID şi College.cName",
+      "Answer4": "Apply.sID şi Student.Bac",
+      "Answer": "c",
+	  "Image":"bd_6.png",
+      "Category": "Baze de date"
+    },
+	    {
+      "QuestionTitle": "Ce returnează următoarea interogare SQL?",
+      "Answer1": "numele salariaţilor care ar trece la următorul nivel de salarizare după o creştere de 25% a salariului.",
+      "Answer2": "numele managerilor care ar trece la următorul nivel de salarizare după o creştere de 25% a salariului.",
+      "Answer3": "angajaţii care ar trece la următorul nivel de salarizare după o creştere a salariului de 25%, dacă salariul lor se situează între salariul minim şi cel maxim.",
+      "Answer4": "Niciuna dintre cele enumerate mai sus.",
+      "Answer": "b",
+	  "Image":"bd_7.png",
+      "Category": "Baze de date"
+    },
+		    {
+      "QuestionTitle": "Tabelul de mai jos conţine un eşantion de date reprezentativ pentru toate dependenţele funcţionale dintr-un set de date real. Care sunt dependenţe funcţionale ce pot fi extrase din aceste date?",
+      "Answer1": "A → {B, C}, E → {F}",
+      "Answer2": "D → {A, B, C, E, F}, F → {E}",
+      "Answer3": "{A, E} → {D}",
+      "Answer4": "{D, E} → {A, B}",
+      "Answer": "a,c",
+	  "Image":"bd_8.png",
+      "Category": "Baze de date"
+    },
+	{
+  "QuestionTitle": "Considerând relaţia R(A, B, C, D, E, F) unde A - F sunt coloanele din tabelul de mai sus şi dependenţele funcţionale tot cele de mai sus, care dintre următoarele seturi de atribute este cheie candidată?",
+  "Answer1": "{B, F}",
+  "Answer2": "{A, E}",
+  "Answer3": "{A, E, D}",
+  "Answer4": "{A}",
+  "Answer": "b",
+  "Category": "Baze de date"
+},
+  {
+  "QuestionTitle": "Relativ la relaţia R de mai sus, care dintre următoarele afirmaţii sunt false?",
+  "Answer1": "Relaţia se află în prima formă normală",
+  "Answer2": "Relaţia se află în a doua formă normală",
+  "Answer3": "La o adresă (coloana B) nu pot corespunde valori diferite în coloana A",
+  "Answer4": "Nu pot exista două înregistrări în tabela R cu valori diferite în coloana D dacă valorile din coloana A sunt identice",
+  "Answer": "b,c,d",
+  "Category": "Baze de date"
+  },
+{
+  "QuestionTitle": "Fie relața R(A,B,C,D,E) în care se verifică următoarele dependențe funcționale D → C, {C,E} → A, D → A, {B,E} → D. Care dintre următoarele seturi de atribute este cheie a relației?",
+  "Answer1": "{B, E}",
+  "Answer2": "{C, D}",
+  "Answer3": "{A, C}",
+  "Answer4": "{A, C, E}",
+  "Answer": "a",
+  "Category": "Baze de date"
+},
+{
+  "QuestionTitle": "Fie următoarea diagramă E/R. Care dintre următoarele relat,ii fac parte din reprezentarea acestei diagrame în modelul relaţional?",
+  "Answer1": "Courses(CID, title)",
+  "Answer2": "Students(SID, name)",
+  "Answer3": "Enroll(SID,CID)",
+  "Answer4": "Enroll(SID, name, CID, title, grade)",
+  "Answer5": "Students(SID, name, CID)",
+  "Answer6": "Enroll(SID, CID, grade)",
+  "Answer": "a,b,f",
+  "Image":"bd_12.png",
+  "Category": "Baze de date"
+},
+{
+  "QuestionTitle": "Se dau tabelele R(A,B), S(B,C) care conţin următoarele înregistrări R=(1,2), (2,2), (5,1), iar S=(2, 2), (2, 1). Fie vederea V definită prin următoarea interogare \nSELECT A, C FROM R JOIN S ON R.B = S.B \n Care dintre următoarele înregistrări fac parte din vederea V?",
+  "Answer1": "(1,1)",
+  "Answer2": "(1,2)",
+  "Answer3": "(2,1)",
+  "Answer4": "(2,2)",
+  "Answer5": "(5,1)",
+  "Answer6": "(5,2)",
+  "Answer7": "(1,5)",
+  "Answer8": "(2,5)",
+  "Answer": "a,b,c,d",
+  "Category": "Baze de date"
+},
+{
+  "QuestionTitle": "Care dintre următoarele instrucţiuni poate fi folosită ca instrucţiune următoare în secvenţa de cod de mai jos?",
+  "Answer1": "END TRANSACTION",
+  "Answer2": "END",
+  "Answer3": "COMMIT",
+  "Answer4": "ROLLBACK TRANSACTION",
+  "Answer": "c,d",
+  "Image":"bd_14.png",
+  "Category": "Baze de date"
+},
+	{
+  "QuestionTitle": "Registrul Program Contor conține:",
+  "Answer1": "adresa următoarei instrucțiuni din memorie",
+  "Answer2": "adresa datelor extrase din memorie",
+  "Answer3": "rezultatul operațiilor aritmetice efectuate",
+  "Answer4": "adresa de unde va fi extrasă instrucțiunea ce urmează a fi executată",
+  "Answer": "d",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Timpul mediu necesar pentru a accesa o locație de memorie și a prelua conținutul acesteia poartă numele de:",
+  "Answer1": "timp de latență",
+  "Answer2": "timp de căutare",
+  "Answer3": "timp de acces",
+  "Answer4": "timp de răspuns",
+  "Answer": "c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Tipul de memorie folosit pentru a crește viteza de procesare a unui calculator este:",
+  "Answer1": "RAM",
+  "Answer2": "Cache",
+  "Answer3": "BIOS",
+  "Answer4": "ROM",
+  "Answer": "b",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Suma dintre -6 și -13, folosind reprezentarea în complement față de 2, este:",
+  "Answer1": "11101101",
+  "Answer2": "11100001",
+  "Answer3": "01010101",
+  "Answer4": "10101011",
+  "Answer": "a",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Care este valoarea stocată la adresa c după executarea următoarei secvențe de cod?",
+  "Answer1": "ac_5_a.png",
+  "Answer2": "ac_5_b.png",
+  "Answer3": "ac_5_c.png",
+  "Answer4": "ac_5_d.png",
+  "Answer": "a,d",
+  "Image":"ac_5.png",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Ce tehnică ajută procesorul să ruleze un program concomitent cu operațiile de intrare/ieșire?",
+  "Answer1": "DMA",
+  "Answer2": "transfer prin program",
+  "Answer3": "niciunul dintre răspunsuri",
+  "Answer4": "transfer prin întreruperi",
+  "Answer": "d",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Care este cea mai mare unitate de transfer a datelor din memoria unui sistem de calcul?",
+  "Answer1": "cuvânt",
+  "Answer2": "bloc",
+  "Answer3": "bit",
+  "Answer4": "niciuna dintre acestea",
+  "Answer": "b",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Pentru un număr dat/fix de biți, numărul de valori distincte care pot fi reprezentate este:",
+  "Answer1": "mai mare pentru întregi fără semn",
+  "Answer2": "mai mare pentru întregi cu semn",
+  "Answer3": "același pentru întregi cu semn și întregi fără semn",
+  "Answer": "c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Diferența între procesoarele CISC și RISC constă în:",
+  "Answer1": "procesoarele CISC au un număr mai mare de instrucțiuni",
+  "Answer2": "procesoarele RISC prezintă riscuri mai mari în utilizare",
+  "Answer3": "procesoarele RISC execută o instrucțiune într-un singur ciclu",
+  "Answer": "a,c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "O întrerupere hardware reprezintă:",
+  "Answer1": "un semnal sincron/asincron la un periferic care semnalizează apariția unui eveniment care trebuie tratat de către procesor",
+  "Answer2": "întreruperea funcționării procesorului în urma unui bug software",
+  "Answer3": "întreruperea unui circuit de conectare între două sau mai multe componente hardware",
+  "Answer": "a",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Arhitectura Harvard are:",
+  "Answer1": "două magistrale, una pentru date și una pentru instrucțiuni",
+  "Answer2": "două memorii, una pentru date și una pentru instrucțiuni/program",
+  "Answer3": "drept dezavantaj major faptul că magistrala de date este mai ocupată decât magistrala de program",
+  "Answer": "a,b,c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "La magistralele sincrone:",
+  "Answer1": "ciclurile de transfer sunt direct corelate cu semnalul de tact (CPU clock)",
+  "Answer2": "nu există o legatură directă între evoluția în timp a unui ciclu de transfer și semnalul de tact al ceasului procesorului",
+  "Answer3": "se face permanent o sincronizare a acestora cu magistralele asincrone",
+  "Answer": "a",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "O poartă logică este:",
+  "Answer1": "un program software capabil să efectueze o anumită operație (logică) asupra unor semnale electrice",
+  "Answer2": "un conector care permite preluarea valorilor logice de la utilizator",
+  "Answer3": "un dispozitiv hardware capabil să efectueze o anumită operație (logică) asupra unor semnale electrice",
+  "Answer": "c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Circuitele de memorare SR-latch (S-Set, R-Reset):",
+  "Answer1": "Stochează o singură valoare binară",
+  "Answer2": "Ieșirile celor două porturi logice folosite pentru realizare sunt tot timpul complementare",
+  "Answer3": "Setează și resetează în mod continuu valorile numerice stocate",
+  "Answer": "a,b",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+  "QuestionTitle": "Circuit combinational:",
+  "Answer1": "Este un circuit format din porți logice, care nu are memorie și al cărui output depinde doar de inputul prezent/curent, NU de inputul precedent sau de starea curentă în care se află circuitul",
+  "Answer2": "Este un circuit electric în care informațiile sunt combinate în mod aleator pentru a obține valori aleatoare",
+  "Answer3": "Este un circuit care transpus într-un graf nu conține cicluri",
+  "Answer": "a,c",
+  "Category": "Arhitectura calculatoarelor"
+},
+{
+"QuestionTitle": "Care dintre următoarele mecanisme pot fi folosite pentru o implementare corectă a problemei secțiunii critice fără utilizarea așteptării active?",
+"Answer1": "semafoare",
+"Answer2": "algoritmul lui Dekker",
+"Answer3": "algoritmul lui Peterson",
+"Answer4": "mecanismul TSL",
+"Answer5": "monitoare",
+"Answer": "a,e",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră 5 segmente de memorie (A,B,C,D,E) cu mărimile 2k, 6k, 4k, 3k, 4k şi o memorie totală de 16k. În memorie se încarcă în ordine segmentele A, B, C, D. Care dintre aceste segmente urmează să fie evacuat pentru a putea permite încărcarea ulterioară a segmentului E?",
+"Answer1": "A",
+"Answer2": "B",
+"Answer3": "C",
+"Answer4": "D",
+"Answer5": "niciunul",
+"Answer": "b,c,d",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Care dintre problemele clasice de comunicare între procese pune în evidenţă o situaţie de impas?",
+"Answer1": "Problema filosofilor la masă",
+"Answer2": "Problema cititorilor şi scriitorilor",
+"Answer3": "Problema producător-consumator",
+"Answer4": "Problema frizerului",
+"Answer5": "niciuna dintre aceste probleme",
+"Answer": "a",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră un set de 10 procese planificate conform algoritmului Round Robin. Se cunosc următoarele informaţii: cuanta utilizată este 8, numărul final de comutări de context este 25, valoarea raportului T1/T2 = 2.25, unde T1 şi T2 sunt timpii estimaţi de execuţie pentru cel mai lung si cel mai scurt proces, pentru care timpul estimat de execuţie depăşeşte valoarea cuantei (cu cel puțin 25%). Determinaţi cea mai mică valoare posibilă pentru perechea (T1, T2).",
+"Answer1": "27, 12",
+"Answer2": "31, 14",
+"Answer3": "34, 15",
+"Answer4": "36, 16",
+"Answer": "a",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră un set de 10 procese planificate conform algoritmuluii SJF, în care procesele sosesc în sistem la momentele T1 = 0, T2 = 13, T3 = 26. La fiecare moment sosesc cel puţin 3 procese, cu timpi estimaţi de execuţie diferiţi. Dacă pentru procesele P1, P5 şi P7 avem timpii de aşteptare 0, 0, 0 şi timpii de răspuns 14, 3, 6, identificaţi la ce moment a sosit procesul P1, apoi răspundeţi la următoarea întrebare: determinaţi timpii estimaţi de execuţie pentru cel puţin 6 procese, ştiind că nu există perioade de pauză ale procesorului şi că pot exista procese cu acelaşi timp estimat de execuţie, sosite la momente diferite?",
+"Answer1": "3, 4, 5, 6, 7, 8",
+"Answer2": "3, 4, 5, 6, 6, 8",
+"Answer3": "3, 4, 5, 6, 7, 14",
+"Answer4": "3, 4, 6, 6, 7, 14",
+"Answer": "d",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Într-un sistem pe 16 biţi cu 8 pagini virtuale şi 4 pagini cadru este folosit pentru paginare algoritmul FIFO. La un moment dat, în memorie sunt mapate paginile (2, 5, 7, 1). După acest moment vor fi accesate următoarele adrese: 12411, 16729, 2560, 9215, 20952. Care va fi maparea paginilor după ultima accesare, ştiind că următoarea pagină evacuată este prima pagină cadru?",
+"Answer1": "5, 2, 0, 4",
+"Answer2": "3, 4, 2, 5",
+"Answer3": "2, 5, 0, 3",
+"Answer4": "5, 4, 0, 2",
+"Answer": "d",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Într-un sistem pe 16 biţi cu 8 pagini virtuale şi 4 pagini cadru este folosit pentru paginare algoritmul Ceasului, fără îmbătrânire. La un moment dat, în memorie sunt mapate paginile (2, 5, 7, 1) iar următoarea pagină testată va fi prima pagină cadru. După încercările de acces către paginile, nu neapărat în această ordine, 1, 2, 3, 4, 5, 7 maparea devine (1, 5, 7, 2). Care dintre cele 4 pagini iniţiale au avut bitul R setat?",
+"Answer1": "toate",
+"Answer2": "niciuna",
+"Answer3": "paginile 5 si 7",
+"Answer4": "paginile 2, 5 si 7",
+"Answer": "c",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră situaţia a 3 fire de control a execuţiei care partajează variabilele A şi B. Accesul către cele două variabile este nerestricţionat, iar operaţiile realizate sunt, în fiecare fir de control a execuţiei, următoarele A = A+B,B = A−B,A = A−B. Precizaţi care dintre următoarele valori sunt posibile la sfârşitul execuţiei celor trei fire de control a execuţiei, atunci când A = 5,B = 7",
+"Answer1": "A = 5, B = 7",
+"Answer2": "A = 7, B = 5",
+"Answer3": "A = -29, B = 17",
+"Answer4": "A = -31, B = 19",
+"Answer": "b,d",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră o situaţie simplă cu 6 procese şi un singur tip de resurse. Starea sistemului este descrisă prin Are = (4, 2, 0, 5, 1, 4), Max = (8, 10, 10, 25, 25, 30), Disponibil = D. Determinaţi valoarea minimă D pentru care starea este sigură şi permite apoi alocarea a 3 resurse suplimentare către procesul al doilea.",
+"Answer1": "D = 12",
+"Answer2": "D = 14",
+"Answer3": "D = 13",
+"Answer4": "D = 11",
+"Answer": "b",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Se consideră o situaţie simplă cu 6 procese şi un singur tip de resurse. Starea sistemului este descrisă prin Are = (4, 2, 0, 5, 1, 4), Max = (14, 6, 8, 29, 27, 24), Disponibil = D. Determinaţi valoarea minimă D pentru care starea este sigură şi permite apoi alocarea a 3 resurse suplimentare către procesul al treilea.",
+"Answer1": "D = 11",
+"Answer2": "D = 13",
+"Answer3": "D = 14",
+"Answer4": "D = 12",
+"Answer": "c",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Care dintre următoarele reprezintă operaţii atomice permise asupra semafoarelor?",
+"Answer1": "wait",
+"Answer2": "up",
+"Answer3": "sleep",
+"Answer4": "down",
+"Answer": "b,d",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "O instrucţiune TSL ar trebui să fie executată?",
+"Answer1": "după fiecare proces în parte",
+"Answer2": "periodic",
+"Answer3": "într-o manieră atomică",
+"Answer4": "în niciuna dintre situaţiile precizate",
+"Answer": "c",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "O unitate de execuţie care nu poate fi întreruptă este",
+"Answer1": "simplă",
+"Answer2": "statică",
+"Answer3": "atomică",
+"Answer4": "dinamică",
+"Answer": "c",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Precizaţi principalele dezavantaje ale spinlock-urilor",
+"Answer1": "nu sunt eficiente pentru multe multe procese",
+"Answer2": "implică tehnici de aşteptare activă",
+"Answer3": "pot fi nesigure ocazional",
+"Answer4": "sunt prea complexe pentru programatori",
+"Answer": "b",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Fiecare dintre procesele Pi, cu i = 0, 1, . . . , 9 este caracterizat prin următoarea secvență de cod. Într-un al 11-lea proces, P10, liniile up(mutex) și down(mutex) au fost inversate. Care este numărul maxim de procese care s-ar putea găsi simultan în regiunea critică în acest caz, știind că inițial este permisă trecerea prin mutex?",
+"Answer1": "1",
+"Answer2": "2",
+"Answer3": "3",
+"Answer4": "Oricare dintre variantele a), b), c)",
+"Answer5": "Niciuna dintre variantele a), b), c)",
+"Answer": "d",
+"Image": "so_15.png",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Într-un sistem se găsesc trei procese concurente, în care se găsesc următoarele bucăți de cod, sincronizate prin trei semafoare binare. Semafoarele sunt init, ializate cu valorile S0 = 1, S1 = 0 și S2 = 0. De câte ori va executa primul proces linia print ‘0’ ?",
+"Answer1": "Cel put,in de două ori",
+"Answer2": "Exact de două ori",
+"Answer3": "Exact de trei ori",
+"Answer4": "Cel mult de trei ori",
+"Answer5": "Exact o dată",
+"Answer": "a",
+"Image": "so_16.png",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Modificarea unui semafor este posibilă în",
+"Answer1": "secțiunea critică",
+"Answer2": "zona aflată înaintea unei secțiuni critice",
+"Answer3": "zona situată după secțiunea critică",
+"Answer4": "oricare dintre aceste zone",
+"Answer5": "niciuna dintre aceste zone",
+"Answer": "a",
+"Category": "Sisteme de operare"
+},
+{
+"QuestionTitle": "Intr-un segment TCP ce câmp permite nodului receptor să determine dacă un segment TCP a fost deteriorat în timpul transmisiei?",
+"Answer1": "suma de control",
+"Answer2": "flags",
+"Answer3": "hash",
+"Answer4": "padding",
+"Answer": "a",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Care dintre următoarele dispozitive se află la nivelul 2 OSI?",
+"Answer1": "bridge(punte)",
+"Answer2": "repeater(repetor)",
+"Answer3": "router",
+"Answer4": "switch",
+"Answer5": "hub",
+"Answer": "a,d",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Pentru a asigura integritatea datelor, protocoalele orientate pe conexiune (ca TCP) folosesc:",
+"Answer1": "semnătura digitala",
+"Answer2": "certificate digitale",
+"Answer3": "algoritmi de criptare simetrici",
+"Answer4": "suma de control (checksum)",
+"Answer": "d",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Ordinea corectă a încapsulării mesajelor este:",
+"Answer1": "date, cadre, pachete, segmente, biți",
+"Answer2": "segmente, date, pachete, cadre, biți",
+"Answer3": "date, segmente, pachete, cadre, biți",
+"Answer4": "date, segmente, cadre, pachete, biți",
+"Answer": "c",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Ce afirmații sunt adevărate despre protocolul TCP?",
+"Answer1": "este un protocol orientat de datagrame",
+"Answer2": "este un protocol orientat pe conexiune",
+"Answer3": "nu folosește sume de control",
+"Answer4": "asigură segmentare și reasamblare",
+"Answer": "b,d",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Care din următoarele adrese IP se încadrează în blocul CIDR din 115.64.4.0/22? (Alegeti două.)",
+"Answer1": "115.64.8.32",
+"Answer2": "115.64.6.255",
+"Answer3": "115.64.8.31",
+"Answer4": "115.64.5.128",
+"Answer": "b,d",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Ce informații sunt conținute de headerul unui frame Ethernet?",
+"Answer1": "sursa și destinatia adresei de hardware",
+"Answer2": "sursa și destinatia adresei de rețea",
+"Answer3": "codul de corectare a erorilor",
+"Answer4": "codul de autentificare",
+"Answer": "a",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Care din următoarele afirmații sunt adevărate referitor la switch?",
+"Answer1": "crează un singur domeniu de coliziune și un singur domeniu de broadcast",
+"Answer2": "crează diferite domenii de coliziune dar un singur domeniu de broadcast",
+"Answer3": "crează diferite domenii de coliziune și diferite domenii de broadcast",
+"Answer": "b",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Care din următoarele adrese IP este un exemplu valid de adresă IPv4?",
+"Answer1": "144.92.254.253",
+"Answer2": "144-92-43-178",
+"Answer3": "144.92.256.176",
+"Answer4": "144,92,43,178",
+"Answer": "a",
+"Category": "Rețele de calculatoare"
+},
+{
+"QuestionTitle": "Care este semnificația acronimului CSMA/CD?",
+"Answer1": "Carrier Service Multiple Access with Collision Detection",
+"Answer2": "Carrier Sense Multiple Access with Collision Avoidance",
+"Answer3": "Carrier Sense Multiple Access with Collision Detection",
+"Answer4": "Control Sense Multiple Access with Collision Direction",
+"Answer": "c",
+"Category": "Rețele de calculatoare"
+}	  
+]
