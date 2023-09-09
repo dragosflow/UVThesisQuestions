@@ -7,7 +7,7 @@ import Checkbox from 'expo-checkbox';
 
 
 
-export default function AllQuestionsScreen({navigation}) {
+export default function CategoryQuestionsScreen({route}) {
 
     const [index, setIndex] = useState(0);
     const [question, setQuestion] = useState({});
@@ -16,7 +16,8 @@ export default function AllQuestionsScreen({navigation}) {
     const [checkedAnswers, setCheckedAnswers] = useState({});
     const [modalVisible, setModalVisible] = useState(false);
     const [valid, setValid] = useState(false);
-
+    const category = route.params.category
+    const filteredQuestions = questions.filter((question) => question.Category === category);
 
     const answerMapper = {
         "Answer1": "a",
@@ -33,7 +34,7 @@ export default function AllQuestionsScreen({navigation}) {
     }
 
     useEffect(() => {
-        const currentQuestion = questions[index]
+        const currentQuestion = filteredQuestions[index]
         if (typeof currentQuestion.Answer === 'string') {
             currentQuestion.Answer = currentQuestion.Answer.split(',').map(item => item.trim());
           }
@@ -41,6 +42,7 @@ export default function AllQuestionsScreen({navigation}) {
         setImage(imageMapper[currentQuestion.Image])
         setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
         setCheckedAnswers({});
+
     }, [index])
 
     const handleCheckboxChange = (answer, isChecked) => {
@@ -51,7 +53,7 @@ export default function AllQuestionsScreen({navigation}) {
     };
 
     const nextQuestion = () => {
-        if(index < questions.length - 1) {
+        if(index < filteredQuestions.length - 1) {
             setIndex( prevIndex => prevIndex + 1)
         }
     }
@@ -128,7 +130,7 @@ export default function AllQuestionsScreen({navigation}) {
             <TouchableOpacity style={tw`mx-auto bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => {handleAnswerPress()}}>
                 <Text style={tw`text-white text-lg mx-auto`}>Answer</Text>
             </TouchableOpacity>
-            {index < questions.length-1 && <TouchableOpacity style={tw`mx-auto bg-blue-500 flex w-3/4 rounded-md p-2 mt-10`} onPress={() => {nextQuestion()}}>
+            {index < filteredQuestions.length-1 && <TouchableOpacity style={tw`mx-auto bg-blue-500 flex w-3/4 rounded-md p-2 mt-10`} onPress={() => {nextQuestion()}}>
                 <Text style={tw`text-white text-lg mx-auto`}>Next</Text>
             </TouchableOpacity>}
             {index > 0 && <TouchableOpacity style={tw`mx-auto bg-gray-500 w-3/4 flex rounded-md p-2 mt-10`}  onPress={() => {previousQuestion()}}>

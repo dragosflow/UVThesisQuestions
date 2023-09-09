@@ -14,15 +14,15 @@ export default function MenuScreen({navigation}) {
       <TouchableOpacity style={tw`bg-blue-500 flex w-3/4 rounded-md p-2 mt-10`} onPress={() => {navigation.navigate("All")}}>
         <Text style={tw`text-white text-lg mx-auto`}>Toate intrebarile</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { console.log("Random"); }}>
+      <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { navigation.navigate("RandomQuestionsScreen") }}>
         <Text style={tw`text-white text-lg mx-auto`}>3 intrebari random</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { console.log("Learn"); }}>
+      <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { navigation.navigate("CategoriesMenu") }}>
         <Text style={tw`text-white text-lg mx-auto`}>Alege dupa categorii</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { console.log("Learn"); }}>
+      {/* <TouchableOpacity style={tw`bg-blue-500 w-3/4 flex rounded-md p-2 mt-10`} onPress={() => { console.log("Learn"); }}>
         <Text style={tw`text-white text-lg mx-auto`}>Invata</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </View>
   );
 }
