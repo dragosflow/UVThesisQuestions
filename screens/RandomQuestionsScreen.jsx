@@ -16,7 +16,8 @@ export default function RandomQuestionsScreen() {
     const [checkedAnswers, setCheckedAnswers] = useState({});
     const [modalVisible, setModalVisible] = useState(false);
     const [valid, setValid] = useState(false);
-
+    const [randomQuestions, setRandomQuestions] = useState([])
+    const [generated, setGenerated] = useState(false)
     const answerMapper = {
         "Answer1": "a",
         "Answer2": "b",
@@ -55,19 +56,31 @@ export default function RandomQuestionsScreen() {
         return selectedQuestions;
       };
 
-      const randomQuestions = getRandomQuestions();
-    
-    useEffect(() => {
-        const currentQuestion = randomQuestions[index];
-        if (typeof currentQuestion.Answer === 'string') {
-            currentQuestion.Answer = currentQuestion.Answer.split(',').map(item => item.trim());
-          }
-        setQuestion(currentQuestion)
-        setImage(imageMapper[currentQuestion.Image])
-        setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
+      useEffect(() => {
+        if(!generated) {
+            const generatedRandomQuestions = getRandomQuestions();
+            setRandomQuestions(generatedRandomQuestions);
+            setGenerated(true);
+            
+            const currentQuestion = generatedRandomQuestions[index];
+            if (typeof currentQuestion?.Answer === 'string') {
+                currentQuestion.Answer = currentQuestion.Answer.split(',').map(item => item.trim());
+            }
+            setQuestion(currentQuestion);
+            setImage(imageMapper[currentQuestion?.Image]);
+            setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
+        } else {
+            const currentQuestion = randomQuestions[index];
+            if (typeof currentQuestion?.Answer === 'string') {
+                currentQuestion.Answer = currentQuestion.Answer.split(',').map(item => item.trim());
+            }
+            setQuestion(currentQuestion);
+            setImage(imageMapper[currentQuestion?.Image]);
+            setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
+        }
         setCheckedAnswers({});
-
-    }, [index])
+    }, [index, generated, randomQuestions]);
+    
 
     const handleCheckboxChange = (answer, isChecked) => {
         setCheckedAnswers(prevState => ({
