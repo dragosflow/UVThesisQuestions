@@ -22,7 +22,8 @@
     "react-native-safe-area-context": "^4.7.2",
     "react-native-screens": "^3.25.0",
     "twrnc": "^3.6.4",
-    "expo-checkbox": "~2.4.0"
+    "expo-checkbox": "~2.4.0",
+    "expo-updates": "~0.18.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
