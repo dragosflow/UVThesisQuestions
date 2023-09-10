@@ -31,7 +31,13 @@ export default function RandomQuestionsScreen() {
         "Answer10": "j",
 
     }
-
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
     const getRandomQuestions = () => {
         const uniqueCategories = Array.from(new Set(questions.map((question) => question.Category)));
         const selectedCategories = [];
@@ -68,7 +74,7 @@ export default function RandomQuestionsScreen() {
             }
             setQuestion(currentQuestion);
             setImage(imageMapper[currentQuestion?.Image]);
-            setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
+            setAnswerKeys(shuffleArray(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key))));
         } else {
             const currentQuestion = randomQuestions[index];
             if (typeof currentQuestion?.Answer === 'string') {
@@ -76,7 +82,7 @@ export default function RandomQuestionsScreen() {
             }
             setQuestion(currentQuestion);
             setImage(imageMapper[currentQuestion?.Image]);
-            setAnswerKeys(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key)));
+            setAnswerKeys(shuffleArray(Object.keys(currentQuestion).filter(key => /^Answer\d+$/.test(key))));
         }
         setCheckedAnswers({});
     }, [index, generated, randomQuestions]);
